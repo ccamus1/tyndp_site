@@ -1,0 +1,247 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-close-button;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-flex-video;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-menu;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+main {clear:both;}
+
+.layout-content {padding:3em 2%;}
+.layout-grey {
+    padding:3em 2%;
+    background-color: rgba(229, 229, 229, 0.5);
+    background: #e5e5e5;
+}
+.global-header {padding: 0 2%; margin-bottom: 50px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.18);border-bottom: 1px solid #ddd;}
+.global-header-logo {
+    display: block;
+    /* float: left; */
+    margin: 8px auto;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    width: 6em;
+}
+@media screen and (min-width: 40em) {
+	.global-header-logo {
+    float: left;
+    width: 8em;
+    margin: 1em auto;
+}
+}
+
+
+
+$menu-item-padding: 24px 24px;
+.nav-global-secondary li {font-weight: 700;text-transform:uppercase;}
+.nav-global-secondary li a {color: black;}
+.nav-global-secondary a.state-active {
+    background-color: #2c296b;
+    color: white;
+    
+}
+.nav-global-secondary, .nav-global-secondary ul {
+    
+    @include menu-base;
+    // Orientation
+    @include menu-direction(horizontal);
+    
+    &.vertical {@include menu-direction('vertical');}
+    @each $size in $breakpoint-classes {
+      @if $size != small {
+        @include breakpoint($size) {
+          &.#{$size}-horizontal {
+            @include menu-direction(horizontal);
+          }
+
+          &.#{$size}-vertical {
+            @include menu-direction(vertical);
+          }
+        }
+      }
+    }
+
+    // Nesting
+    &.nested {
+      @include menu-nested;
+    }
+
+    // Align right
+    &.align-#{$global-right} {
+        float:right;
+    }
+
+    &.nav-tier2 li {font-weight: normal;}
+    
+}
+.nav-global-secondary .nav-tier2 {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    display: block;
+    float: right;
+    font-size: 14px;
+    font-weight: normal !important;
+    left: auto;
+    margin-left: -9999px;
+    overflow: hidden;
+    padding: 0 2% 0 9999px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: auto;
+}
+
+@media screen and (max-width: 40em) {
+    .nav-global-secondary ul {
+        width: 100%;
+    }
+    .nav-global-secondary .nav-tier2 li {
+        float:left;
+        clear: both;
+        width: 100%;
+        text-align: left;
+    }
+
+    .nav-global-secondary .nav-tier2 {
+        margin-left: 0;
+        float: left;
+        padding: 0.5em 0 1em 0;
+        position: relative;
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+}
+
+.button.login {
+    padding:12px 26px; 
+    border-radius: 5px;
+    margin-left: 1.5em;
+    color: #fff;
+}
+
+.masthead {
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background-color: black; 
+}
+
+.masthead:before {
+    background: url("https://style.codeforamerica.org/3/style/images/images/masthead-default.jpg") center center no-repeat;
+    background-size: cover;
+    content: "";
+    display: none;
+    left: 0;
+    max-width: none;
+    min-height: 400px;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: block;
+}
+
+.masthead-header {
+    clear: both;
+    float: left;
+    margin: 0em auto;
+    overflow: hidden;
+    padding: 0 4%;
+    position: inherit;
+    width: auto;
+    z-index: 1;
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.6);
+}
+
+.masthead-header .page-title a:link, .masthead-header .page-title a:visited, .masthead-header .page-title a:hover, .masthead-header .page-title a:focus, .masthead-header .page-title a:active {
+    color: white;
+    text-decoration: none;
+
+}
+
+.masthead-header h1.page-title {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 96px;
+}
+
+.masthead-header p {
+    color: white;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 500;
+    max-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.masthead-xl .masthead-header:before {
+    background-image: url("https://style.codeforamerica.org/3/style/images/fade-black.png");
+    width: 100%;
+    content: "";
+    height: 300px;
+    display: block;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+.global-footer {
+    & {position: relative;background: #000;color: #fff;padding:2em 2em 1em 2em;}
+    .logo {
+        left: 2%;
+        margin: 16px 16px 16px 0;
+        position: absolute;
+        width: 100px;
+    }
+
+    small {
+        float: left;
+        margin: 10px 0 10px 120px;
+    }
+}
+

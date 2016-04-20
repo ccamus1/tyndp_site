@@ -1,0 +1,21 @@
+---
+layout: null
+---
+[
+  {% assign comma = false %}
+  {% for post in site.posts %}
+  {% unless post.hidden == true %}
+    {% if comma %},{% endif %}
+    {% assign comma = true %}
+    {
+      "title": "{{ post.title | escape_once  }}",
+      "url": "{{ post.url | escape_once }}",
+      "category": "{{ post.category | escape_once}}",
+      "full_date": "{{post.date}}",
+      "author": "{{post.author}}",
+      "tags": {{ post.tags | jsonify }}
+      
+    }
+  {% endunless %}
+  {% endfor %}
+]

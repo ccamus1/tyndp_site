@@ -1,0 +1,76 @@
+{% if page.nav_tier1_active %}
+    {% assign nav_tier1_active = page.nav_tier1_active %}
+{% elsif include.nav_tier1_active %}
+    {% assign nav_tier1_active = include.nav_tier1_active %}
+{% else %}
+    {% assign nav_tier1_active = false %}
+{% endif %}
+
+{% if page.masthead-class %}
+    {% assign masthead-class = page.masthead-class %}
+{% elsif include.masthead-class %}
+    {% assign masthead-class = include.masthead-class %}
+{% else %}
+    {% assign masthead-class = "masthead-l" %}
+{% endif %}
+
+{% if page.masthead-image %}
+    {% assign masthead-image = page.masthead-image %}
+{% elsif include.masthead-image %}
+    {% assign masthead-image = include.masthead-image %}
+{% else %}
+    {% assign masthead-image = false %}
+{% endif %}
+
+{% if page.nav-global-primary %}
+    {% assign nav-global-primary = page.nav-global-primary %}
+{% elsif include.nav-global-primary %}
+    {% assign nav-global-primary = include.nav-global-primary %}
+{% else %}
+    {% assign nav-global-primary = false %}
+{% endif %}
+
+{% if page.masthead %}
+    {% assign masthead = page.masthead %}
+{% elsif include.masthead %}
+    {% assign masthead = include.masthead %}
+{% else %}
+    {% assign masthead = false %}
+{% endif %}
+
+{% comment %}
+      We previously had a nav-global-primary that has been removed. However, due
+      to a bug, if we don't show the primary nav, we need an empty container so
+      we can collapse the main nav on mobile screens. This requirement is because
+      of the nav collapse functionality in global.js.
+{% endcomment %}
+
+<div class="global-header column
+  {% comment %}
+  Right now, we need to kill the margin-bottom on global-header if we have a custom masthead (since it comes after global-header)
+  This checks if there's a custom masthead then applies a class we can style
+  In the future, this hack should be replaced with better pattern-portfolio styles for header above and below masthead
+  {% endcomment %}
+  {% if page.masthead-custom %}global-header-custom{% endif %}
+  ">
+
+<a href="/" class="global-header-logo">
+      <img src="/assets/img/ee-logo.png" alt="ENTSO-E logo" />
+  </a>
+
+<nav class="nav-global-secondary">
+  <ul class="vertical medium-horizontal align-right">
+        <li>
+          <a href="#" {% if nav_tier1_active == "about" %}class="state-active"{% endif %}>TIER 1</a>
+
+          {% if nav_tier1_active == "about" %}
+          <ul class="nav-tier2">
+            <li><a href="#">NAV TIER 2/a></li>
+          </ul>
+          {% endif %}
+        </li>
+        
+        <li><a href="https://contacts.entsoe.eu/Pages/ExtranetPortalHome.aspx" class="button small login">Login</a></li>
+      </ul>
+</nav>
+</div>
