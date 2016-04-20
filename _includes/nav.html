@@ -60,14 +60,28 @@
 
 <nav class="nav-global-secondary">
   <ul class="vertical medium-horizontal align-right">
-        <li>
+        <!--<li>
           <a href="#" {% if nav_tier1_active == "about" %}class="state-active"{% endif %}>TIER 1</a>
-
           {% if nav_tier1_active == "about" %}
           <ul class="nav-tier2">
-            <li><a href="#">NAV TIER 2/a></li>
+            <li><a href="#">NAV TIER 2</a></li>
           </ul>
           {% endif %}
+        </li>-->
+        <li>
+          <a href="{{site.baseurl | append: '/exec-report'}}">Executive Report</a>
+        </li>
+        <li>
+          <a href="{{site.baseurl | append: '/insight-reports'}}">Insights</a>
+        </li>
+        <li>
+          <a href="{{site.baseurl | append: '/regions'}}">Regions</a>
+        </li>
+        <li>
+          <a href="{{site.baseurl | append: '/future'}}">The Future</a>
+        </li>
+        <li>
+          <a href="{{site.baseurl | append: '/reference'}}">Reference</a>
         </li>
         
         <li><a href="https://contacts.entsoe.eu/Pages/ExtranetPortalHome.aspx" class="button small login">Login</a></li>

@@ -1,4 +1,4 @@
 ---
-layout: default
-title: "Future"
+layout: pages
+title: "The Future"
 ---

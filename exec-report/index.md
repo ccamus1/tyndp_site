@@ -1,4 +1,6 @@
 ---
-layout: default
-title: "Future"
+layout: pages
+title: "Executive Report"
 ---
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis non ut ipsa iste blanditiis, itaque atque distinctio molestias. Laboriosam distinctio dolore recusandae dolor eius hic nesciunt natus, sequi neque ratione culpa quae accusamus minus aliquid dolores voluptates, asperiores perspiciatis obcaecati architecto odit vel. Libero natus dicta fugiat incidunt magni, pariatur odit veniam nemo voluptas ab eaque nulla iste, veritatis saepe iure expedita. Vitae numquam placeat consequatur illo tenetur ratione totam natus, dolore explicabo quas, fuga praesentium qui accusantium repudiandae magnam. Quaerat, illo dolores quos maiores. Aspernatur officiis aut reiciendis optio velit, laborum doloribus. Natus fugit nesciunt, placeat velit in, voluptatem quis itaque laudantium adipisci aspernatur saepe iste temporibus, ea vel, alias ut excepturi provident vero autem! Culpa eius neque tenetur non, magnam. Quibusdam veritatis nulla, sequi nostrum dolore est totam minus vero, quae, dicta consectetur fuga natus, esse magni corrupti earum quos laudantium debitis et quia maiores eum. Fugiat rerum, ullam ad excepturi, voluptates quis expedita odit omnis labore laboriosam hic nobis nihil sunt aut nisi libero officia. Mollitia, vel cum unde deleniti ratione non fuga officiis error molestiae minima quis dolorem odio hic repudiandae perspiciatis nostrum architecto soluta, voluptatum ducimus sint voluptates maiores neque at quibusdam! Necessitatibus, similique, quos.
