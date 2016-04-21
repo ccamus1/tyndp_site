@@ -19,44 +19,68 @@ title: "Home"
     .masthead-header {
     	padding-top: 4em;
 	    padding-bottom: 6em;
+	    width: 100%;
     }
     .global-header {
 	    margin-bottom: 0;
 	    box-shadow: none;
 	}
+	.big-figure {
+		font-size: 3.5em;
+    	font-weight: 800;
+    	display: block;
+    	clear: both;
+    	line-height: 1;
+	}
 </style>
 
 <div class="masthead masthead-xl masthead-homepage">
   <header class="layout-semibreve masthead-header">
-    <h1 id="story-title" class="page-title"><a href="#">Take part in the consultation on the Common Grid Model</a></h1>
-    <p id="story-content">We are currently inviting you to share your views on the future common grid model.</p>
-    <a id="box-link" class="button hollow" style="color:#fff;font-weight: bold;" href="/about">Let us know what you think</a>
+    <h1 id="story-title" class="page-title"><a href="#">Ten year Network Development Plan 2016</a></h1>
+    <p id="story-content"></p>
+    <a id="box-link" class="button hollow" style="color:#fff;font-weight: bold;" data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="This will open the full video to play" data-click-open="true">Learn about TYNDP</a>
   </header>
 </div>
 
-<section>
+<section class="section">
 	<div class="row column">
 		<div class="badge-heading">
-			<h2>ENTSO-E Right Now</h2>
-			<p>Jump straight to our current top priorities and key works areas.</p>
+			<h2>TYNDP Outcomes</h2>
+			<p>These are the headline numbers from TYNDP</p>
 			<hr>
 		</div>
 		<div class="main-work">
 			<div class="medium-3 columns">
-				<strong>Markets</strong>
-				<p>Data from the internal Energy Market</p>
+				<span class="big-figure">&euro;150b</span>
+				<p>investment by 2030</p>
 			</div>
 			<div class="medium-3 columns">
-				<strong>Network Codes</strong>
-				<p>Find out what are the european network codes</p>
+				<span class="big-figure">-20%</span>
+				<p>Reduction of CO<sub>2</sub> emissions</p>
 			</div>
 			<div class="medium-3 columns">
-				<strong>TYNDP</strong>
-				<p>Long Term visions for the European Network</p>
+				<span class="big-figure">10,000km</span>
+				<p>of new lines</p>
 			</div>
 			<div class="medium-3 columns">
-				<strong>???</strong>
-				<p>This is placeholder text to be filled</p>
+				<span class="big-figure">- X &euro;/MWh</span>
+				<p>on Wholesale Price</p>
+			</div>
+			<div class="medium-3 columns">
+				<span class="big-figure">13</span>
+				<p>insight reports</p>
+			</div>
+			<div class="medium-3 columns">
+				<span class="big-figure">6</span>
+				<p>regional investment plans</p>
+			</div>
+			<div class="medium-3 columns">
+				<span class="big-figure">6</span>
+				<p>regional investment plans</p>
+			</div>
+			<div class="medium-3 columns">
+				<span class="big-figure">6</span>
+				<p>regional investment plans</p>
 			</div>
 		</div>	
 	</div>
@@ -64,22 +88,65 @@ title: "Home"
 
 <section class="layout-grey">
 	<div class="row column">
-		<div class="medium-4 columns">
-			<h3>Integrating renewables into the markets</h3>
-			<p>ENTSO-E response to European Commission on the review of the Renewable Energy Directive.</p>
-			<a href="#" class="button hollow">Read More</a>
+		<div class="badge-heading">
+			<h2>Executive Report</h2>
+			<p>Current infrastructure is just not enough, need more!</p>
+			<hr>
 		</div>
-		<div class="medium-4 columns">
+		<div class="medium-5 columns">
+			<img src="//placehold.it/500x500" class="thumbnail" alt="">
+		</div>
+		<div class="medium-7 columns">
 			<h3>InnoGrid2020+ - Conference</h3>
-			<p>Register now for InnoGrid2020+, the not-to-be-missed EU event on innovation in electricity networks. Sponsored by ENTSO-E.</p>
-			<a href="#" class="button hollow">Read More</a>
-		</div>
-		<div class="medium-4 columns">
-			<h3>TEIAS, joins ENTSO-E as observer member</h3>
-			<p>Turkish grid operator, TEIAS, joins ENTSO-E as observer member</p>
-			<a href="#" class="button hollow">Read More</a>
+			<p>Register now for InnoGrid2020+, the not-to-be-missed EU event on innovation in electricity networks. Sponsored by ENTSO-E.
+			</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptates facere molestias, consectetur optio nemo. Aperiam atque, nisi illo perferendis nobis quam modi necessitatibus, nihil. Quidem, nam, numquam. Fuga, dignissimos.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, accusamus saepe facere impedit sed quaerat iste, blanditiis pariatur, voluptate fugit esse cumque! Perspiciatis sapiente debitis, architecto nesciunt. Voluptates, dignissimos cumque.</p>
+			<a href="/exec-report" class="button hollow">Executive Report &rarr;</a>
 		</div>
 	</div>
-
 </section>
 
+<section class="section">
+	<div class="row column">
+		<div class="badge-heading">
+			<h2 class="text-center">Take a tour of TYNDP</h2>
+			<p>Current infrastructure is just not enough, need more!</p>
+			<hr>
+		</div>
+		<div class="row small-up-1 medium-up-2 large-up-3">
+		{% for i in (1..6) %}
+			<div class="column text-center">
+			    <div class="title" style="font-size: 2em; font-weight: 600;padding: 10px; background-color: #ccc; margin-bottom: 10px;">Region {{i}}</div>
+			</div>
+		{% endfor %}
+		  
+	  	</div>
+	</div>
+</section>
+<section class="layout-grey">
+	<div class="row column">
+		<div class="badge-heading text-center">
+			<h2 >The Results</h2>
+			<p>Explore our complete reference map. Find out everything you need to know about each project, its status, how was it's CBA.</p>
+			<p><a href="/reference" class="button"><strong>TO MAP &rarr;</strong></a></p>
+			<hr>
+		</div>
+		<div class="image">
+			<img src="//placehold.it/1200x300" class="thumbnail" alt="">
+		</div>
+	</div>
+</section>
+<section class="section">
+	<div class="row column">
+		<div class="badge-heading text-center">
+			<h2 >The Future</h2>
+			<p>The world keeps on turning and so does TYNDP. There's no time like the present to get started on the next edition TYNDP 2018.</p>
+			<p><a href="/future" class="button"><strong>Share your views</strong></a></p>
+			<hr>
+		</div>
+		<div class="image">
+			<img src="//placehold.it/1200x300" class="thumbnail" alt="">
+		</div>
+	</div>
+</section>
