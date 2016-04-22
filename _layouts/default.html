@@ -33,15 +33,21 @@ nav-breadcrumbs:
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+    
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     
     <link rel="shortcut icon" href="/assets/img/favicon.ico" />
     <meta prefix="og:http://ogp.me/ns#" property="og:image" content="https://www.entsoe.eu/Style%20Library/EntsoePublishingBranding/Images/entsoe-logo1.png" />
+    <!--[if lt IE 9 ]>
+    <script>
+      // Send < IE9 users to browser page.
+      window.location = '/browser/';
+    </script>
+    <![endif]-->
 
     <link rel="stylesheet" href="{{ "/assets/css/app.css" | prepend: site.baseurl }}">
-    
+
     <script src="//use.edgefonts.net/source-sans-pro;merriweather:n3,n4,n7,n9.js"></script>
 
     <style type="text/css">

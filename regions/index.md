@@ -11,28 +11,10 @@ Regions are important blah blah blah
 ## Checkout your Region
 
 <div class="row small-up-1 medium-up-2 large-up-3">
-  <div class="column">
-    <img src="//placehold.it/300x300" class="thumbnail" alt="">
-    <div class="title">Baltics</div>
+{% for i in (1..6)  %}
+  <div class="column text-center">
+    <a href="/regions/test-region"><img src="//placehold.it/300x300" class="thumbnail" alt="">
+    <div class="title">Baltics Region</div></a>
   </div>
-  <div class="column">
-    <img src="//placehold.it/300x300" class="thumbnail" alt="">
-    <div class="title">Baltics</div>
-  </div>
-  <div class="column">
-    <img src="//placehold.it/300x300" class="thumbnail" alt="">
-    <div class="title">Baltics</div>
-  </div>
-  <div class="column">
-    <img src="//placehold.it/300x300" class="thumbnail" alt="">
-    <div class="title">Baltics</div>
-  </div>
-  <div class="column">
-    <img src="//placehold.it/300x300" class="thumbnail" alt="">
-    <div class="title">Baltics</div>
-  </div>
-  <div class="column">
-    <img src="//placehold.it/300x300" class="thumbnail" alt="">
-    <div class="title">Baltics</div>
-  </div>
+{% endfor %}
 </div>
