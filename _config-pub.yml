@@ -3,7 +3,7 @@ include: ['.htaccess']
 keep_files: ['blog', 'library', 'brigade', 'api']
 # Used to generate our social metadata
 url-base: "http://entsoe.eu"
-baseurl: "/baltic-conf/"
+baseurl: "/baltic-conf/tyndp_site"
 permalink: pretty
 future: true
 defaults:
