@@ -15,6 +15,9 @@ nav-breadcrumbs:
 
 There are several drivers for grid development within the Baltic Sea region. Some relate to the current trends in the European energy markets and some to the specific characteristics of the region.
 
+![]({{ "/assets/img/nordic-baltic/image1.png" | prepend: site.baseurl }})
+{:class="float-right" style="padding:20px; max-width:500px;"}
+
 ## Further integration between Nordics and the content
 
 The Nordic part of the Baltic Sea region is likely to still have an annual energy surplus by 2030, even if some nuclear is decommissioned, which would make it beneficial to strengthen the capacity between the Nordics, Baltics and continental Europe. Additionally, for daily regulation purposes, it is beneficial to connect the Nordic hydro-based system to the thermally based continental and wind based Danish system, especially when large amounts of renewables are connected to the continental system.
@@ -44,9 +47,11 @@ Market studies show that that there is a value in increasing the interconnection
 The added value of more interconnection between the Nordics and the continent is also supported by the TYNDP 2016 CBA analysis that shows high social and economic welfare (SEW) benefits for project between the Nordics and the Continent. See project sheets for CBA results for specific projects. Annual energy balances and bulk flows are presented in Table 1and Figure 2 below. 
 
 __INSERT TABLE__
+
 TABLE 1- Energy balances in 2015[^1] and in the future per scenario and country
 
-__INSERT IMAGES 1 & 2__
+![]({{ "/assets/img/nordic-baltic/image2.png" | prepend: site.baseurl }})
+
 Figure 2- Bulk flows in Vision 1 and Vision 4
 
 ## Why are there some differences between TYNDP and regional study results?
@@ -59,8 +64,9 @@ The benefits of interconnection projects both within the Nordics and between the
 
 This partly explains why interconnection projects showing low or even negligible benefits in the TYNDP 2016 market study show higher benefits when more detailed studies is done by the regional TSO’s.
 
-__INSERT IMAGES__
-Figure 3- Simulated energy balances in Vision 4 for average, dry and wet inflow year (TWh).
+![]({{ "/assets/img/nordic-baltic/image3.png" | prepend: site.baseurl }})
+
+__Figure 3- Simulated energy balances in Vision 4 for average, dry and wet inflow year (TWh).__
 
 
 [^1]: [Data from ENTSO data portal](https://www.entsoe.eu/data/data-portal/Pages/default.aspx)
@@ -84,15 +90,33 @@ Figure 4 below shows the increasing exchange to and from the Nordic synchronous 
 
 One of the issues that the power sector is facing in the Nordics and elsewhere in Europe is to find technical/market solutions to this increased frequency instability that is inherent to a system with more interconnection and more variable generation.
 
-__INSERT Figure 4- Interconnector flows to and from the Nordic system[^2]__
+![]({{ "/assets/img/nordic-baltic/image4.png" | prepend: site.baseurl }})
 
-__INSERT Figure 5- Frequency deviations in the Nordic system[^3]__
+__Figure 4- Interconnector flows to and from the Nordic system[^2]__
+
+![]({{ "/assets/img/nordic-baltic/image5.png" | prepend: site.baseurl }})
+
+__Figure 5- Frequency deviations in the Nordic system[^3]__
 
 [^2]: See the report “Challenges and Opportunities in the Nordic Power System” 
 [^3]: See the report “Challenges and Opportunities in the Nordic Power System”
 
 ## Inertia
-Another reason for why the frequency stability may deteriorate further in the future is that amount of inertia in the system is expected to decrease. The amount of inertia in the system determines the immediate effect on the system frequency of a trip of a large production or consumption unit ie Nuclear block or HVDC interconnector. The inertia decrease is caused by the shift from nuclear/thermal production to RES production since that RES production is not contributing to the inertia of the power system the same way as Nuclear and thermal plant does. This creates issues in low load and high RES situations where the remaining synchronous generators might not contribute adequate amount of inertia. The figure below shows that the amount of inertia in the Nordic system in year 2025 might not be sufficient in low load and high RES production situations. Since lack of inertia could compromise system stability, other sources of inertia may have to be introduced in the future.
+Another reason for why the frequency stability may deteriorate further in the future is that amount of inertia in the system is expected to decrease. The amount of inertia in the system determines the immediate[^4] effect on the system frequency of a trip of a large production or consumption unit ie Nuclear block or HVDC interconnector. The inertia decrease is caused by the shift from nuclear/thermal production to RES production since that RES production is not contributing to the inertia[^5] of the power system the same way as Nuclear and thermal plant does. This creates issues in low load and high RES situations where the remaining synchronous generators might not contribute adequate amount of inertia. The figure below shows that the amount of inertia in the Nordic system in year 2025 might not be sufficient in low load and high RES production situations. Since lack of inertia could compromise system stability, other sources of inertia may have to be introduced in the future.
 
-____
-Figure 6- Estimated kinetic energy in 2025 as a function of total load in the synchronous area with wind and solar production and HVDC import including all climate years (1962–2012) of the market simulation scenario. The red line shows the required amount of kinetic energy
+![]({{ "/assets/img/nordic-baltic/image6.png" | prepend: site.baseurl }})
+
+__Figure 6- Estimated kinetic energy in 2025 as a function of total load in the synchronous area with wind and solar production and HVDC import including all climate years (1962–2012) of the market simulation scenario. The red line shows the required amount of kinetic energy[^6]__
+
+The low inertia situation may occur also in the Baltics when the Baltics should switch to an island operation system with only HVDC interconnectors connecting the neighbouring systems. Significant amount of thermal capacities is planned to be decommissioned, however considerable large capacity of wind power is under development, which do not support the system with inertia. In case of this scenario, additional sources of inertia may have to be implemented in the Baltics, as well.
+
+----
+
+__Notes__
+
+[^4]: The inertia of a power system can be translated to the kinetic energy from all the synchronous spinning generators in the power system. Compare with using the same force when trying to break a heavy and a light spinning wheel. The effect on the speed (frequency) will of course be much greater on the lighter wheel when the same amount of force is used. 
+
+[^5]: Spinning wind turbines has an amount of kinetic energy but since they are currently not synchronously connected to the grid they do not contribute to the inertia of the system. However there are potential technical solutions to use the kinetic energy of wind turbines as inertia in the future.
+
+[^6]: See the report “Challenges and Opportunities in the Nordic Power System”
+

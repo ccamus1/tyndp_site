@@ -16,6 +16,9 @@ reports:
   - System adequacy
   - Technology
   - Viability of Energy mix
+nav-breadcrumbs:
+  - Regions: "/regions"
+  - Test Region: "/regions/test-region"
 ---
 <style>
     .region-info {border-right: 3px solid #444;margin-bottom: 1em;min-height: 120px;}
