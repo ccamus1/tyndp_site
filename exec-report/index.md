@@ -22,7 +22,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis non ut ipsa iste
 
 <div class="row">
 <div class="medium-8 columns" markdown="1">
-![](/assets/img/boudaries.png) 
+![]({{"/assets/img/boudaries.png" | prepend: site.baseurl }}) 
 </div>
 
 <div class="medium-4 columns last" markdown="1">
