@@ -3,6 +3,10 @@ layout: pages
 title: "Focus on the Nordic and Baltic Sea"
 bumf: >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias ea aspernatur eaque veniam. Saepe rerum dolorum numquam quisquam animi perferendis fuga! Adipisci molestiae dicta, enim molestias voluptatum et alias corrupti autem perspiciatis libero provident ea assumenda, fugiat recusandae reprehenderit excepturi dolorem. Nemo sint aut ex hic illo unde labore sed magnam itaque deserunt blanditiis, eum, magni laudantium aliquam assumenda, cumque, accusamus architecto provident nam earum eos mollitia laboriosam dolor! Totam numquam nam animi omnis.
+nav_tier1_active: "insights"
+nav-breadcrumbs:
+  - Insight Reports: "/insight-reports"
+  - Focus on the Nordic and Baltic Sea: "/insight-reports/nordic-baltic-sea"
 ---
 
 # {{page.title}}
