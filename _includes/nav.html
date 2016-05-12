@@ -54,8 +54,8 @@
   {% if page.masthead-custom %}global-header-custom{% endif %}
   ">
 
-<a href="/" class="global-header-logo">
-      <img src="/assets/img/ee-logo.png" alt="ENTSO-E logo" />
+<a href="{{"/assets/img/ee-logo.png" | prepend: site.baseurl }}" class="global-header-logo">
+      <img src="{{"/assets/img/ee-logo.png" | prepend: site.baseurl }}" alt="ENTSO-E logo" />
   </a>
 
 <nav class="nav-global-secondary">
