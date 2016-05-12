@@ -1,6 +1,8 @@
 ---
 layout: pages
 title: "Reference"
+nav-breadcrumbs:
+  - Reference: "/reference"
 ---
 <div class="row" markdown="1">
 Insert the following:

@@ -1,6 +1,9 @@
 ---
 layout: pages
 title: "The Future"
+nav_tier1_active: "future"
+nav-breadcrumbs:
+  - Future: "/future"
 ---
 <style>.row14 {
     height: 560px;

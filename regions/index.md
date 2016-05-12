@@ -1,6 +1,8 @@
 ---
 layout: pages
 title: "Regions"
+nav-breadcrumbs:
+  - Regions: "/regions"
 ---
 Regions are important blah blah blah
 
@@ -13,7 +15,7 @@ Regions are important blah blah blah
 <div class="row small-up-1 medium-up-2 large-up-3">
 {% for i in (1..6)  %}
   <div class="column text-center">
-    <a href="/regions/test-region"><img src="//placehold.it/300x300" class="thumbnail" alt="">
+    <a href="{{"/regions/test-region" | prepend: site.baseurl}}"><img src="//placehold.it/300x300" class="thumbnail" alt="">
     <div class="title">Baltics Region</div></a>
   </div>
 {% endfor %}
