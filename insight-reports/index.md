@@ -15,6 +15,7 @@ reports:
 - name: North-South interconnections in Central-East and South-East Europe - regional planning
 - name: North-South interconnections in Western Europe - regional planning
 - name: System adequacy
+  link: "/insight-reports/system-ad"
 - name: Technology
 - name: Viability of Energy mix
 bumf: >
