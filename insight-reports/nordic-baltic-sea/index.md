@@ -9,8 +9,9 @@ nav-breadcrumbs:
   - Focus on the Nordic and Baltic Sea: "/insight-reports/nordic-baltic-sea"
 ---
 
-# {{page.title}}
-
+<div>
+<div class="row">
+<div class="medium-8 small-centered columns" markdown="1">
 ## What are the drivers of grid development in the region?
 
 There are several drivers for grid development within the Baltic Sea region. Some relate to the current trends in the European energy markets and some to the specific characteristics of the region.
@@ -120,3 +121,6 @@ __Notes__
 
 [^6]: See the report “Challenges and Opportunities in the Nordic Power System”
 
+</div>
+</div>
+</div>
