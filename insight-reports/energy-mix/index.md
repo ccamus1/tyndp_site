@@ -9,10 +9,6 @@ nav-breadcrumbs:
   - Viability of the energy mix: "/insight-reports/energy-mix"
 ---
 
-<div>
-<div class="row">
-<div class="medium-8 small-centered columns" markdown="1">
-
 The energy mix represents the combination of different type of generation sources that are necessary to meet demand over a given period. Figure 1 shows the annual energy mix as considered in TYNDP16 for the pan-European system and the five synchronous areas in the mid-term best estimate scenario of “Expected Progress 2020 (EP2020)”.
 
 ![]({{ "/assets/img/energy-mix/fig1.png" | prepend: site.baseurl }})
@@ -248,7 +244,3 @@ These figures open the question of the profitability of the energy mix assumed i
 The system is evolving in a complex manner and with increased cross-border interdependency hence, a systematic approach from the planning perspective in analysis including inertia, voltage and flexibility is advisable in order to ensure the correct measure of the emerging challenges and the maintenance of system security. This analysis should provide comparable results among the TSOs and could help to take timely and economical solutions or mitigation measures. TYNDP is an opportunity to bring that coordination together, provide objective assessments and highlight the most relevant challenges and solutions.
 
 TYNDP 16 delivers the necessary transmission infrastructure but in order to make the energy mix viable it is essential to look at the future from a system perspective. The implementation of the Connection Codes to ensure the necessary technical requirements to grid users and the implementation of Europe’s electricity market to ensure aspects such as reward to system flexibility and incentives for market participants to act in line with system needs are also key priorities.
-
-</div>
-</div>
-</div>
