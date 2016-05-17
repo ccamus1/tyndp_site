@@ -8,9 +8,7 @@ nav-breadcrumbs:
   - Insight Reports: "/insight-reports"
   - Available technologies: "/insight-reports/technology"
 ---
-<div>
-<div class="row">
-<div class="medium-8 small-centered columns" markdown="1">
+
 
 The transmission network is made of many different equipment types. Technology advances every day, supporting new project promotors to meet the challenges described in the ENTSO-E TYNDP. The TYNDP is the key reference document for Europe´s future transmission networks. 
 
@@ -349,6 +347,4 @@ Hybrid lines with DC and AC circuits more than 100 km in parallel need to be stu
 
 </div>
 
-</div>
-</div>
-</div>
+
