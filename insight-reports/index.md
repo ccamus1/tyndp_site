@@ -3,20 +3,31 @@ layout: pages
 title: "Insight Reports"
 reports:
 - name: 2030 Pan-European Capacity Analysis
+  link: "/insight-reports/capacity-analysis"
 - name: A push for Projects of Common Interest
-- name: Baltic synchronization
+  link: "/insight-reports/common-projects"
+- name: Baltic synchronization 
+  link: "/insight-reports/baltic-synchronisation"
 - name: Data and expertise as key ingredients 
+  link: "/insight-reports/data-and-expertise"
 - name: Engagement with all involved actors
+  link: "/insight-reports/engagement"
 - name: Future system perspectives
+  link: "/insight-reports/future-system"
 - name: Getting projects built
+  link: "/insight-reports/getting-projects-built"
 - name: Nordic and Baltic sea - regional planning
+  link: "/insight-reports/nordic-baltic-sea"
 - name: North Seas - regional planning
-  link: "/insight-reports/nordic-baltic-sea/"
+  link: "/insight-reports/north-seas"
 - name: North-South interconnections in Central-East and South-East Europe - regional planning
+  link: "/insight-reports/north-south-interconnection-cee-see"
 - name: North-South interconnections in Western Europe - regional planning
+  link: "/insight-reports/north-south-interconnection-western"
 - name: System adequacy
   link: "/insight-reports/system-ad"
 - name: Technology
+  link: "/insight-reports/technology"
 - name: Viability of Energy mix
   link: "/insight-reports/energy-mix"
 bumf: >
