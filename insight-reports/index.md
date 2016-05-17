@@ -18,6 +18,7 @@ reports:
   link: "/insight-reports/system-ad"
 - name: Technology
 - name: Viability of Energy mix
+  link: "/insight-reports/energy-mix"
 bumf: >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias ea aspernatur eaque veniam. Saepe rerum dolorum numquam quisquam animi perferendis fuga! Adipisci molestiae dicta, enim molestias voluptatum et alias corrupti autem perspiciatis libero provident ea assumenda, fugiat recusandae reprehenderit excepturi dolorem. Nemo sint aut ex hic illo unde labore sed magnam itaque deserunt blanditiis, eum, magni laudantium aliquam assumenda, cumque, accusamus architecto provident nam earum eos mollitia laboriosam dolor! Totam numquam nam animi omnis.
 nav_tier1_active: "insight-reports"
